@@ -1,0 +1,22 @@
+{
+  "name": "project-priyansh",
+  "version": "1.0.0",
+  "description": "Some pseudo description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedasad0/project-priyansh.git"
+  },
+  "author": "Priyansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedasad0/project-priyansh/issues"
+  },
+  "homepage": "https://github.com/syedasad0/project-priyansh#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

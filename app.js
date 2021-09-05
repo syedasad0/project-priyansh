@@ -1,11 +1,22 @@
-//Git is a Version Control System
-console.log("Hello Priyansh!!!!");
-console.log("Hello From JS!!!!");
-const a =10;
-const b = 20;
-let sum;
-let product;
-sum = a+b;
-product = a*b;
-console.log('Sum = ', sum);
-console.log('Product = ', product);
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+app.use(express.json({ limit: '50mb' }));
+
+//CRUD Operations
+/*
+GET
+POST
+PUT
+DELETE
+*/
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.get('/', function (req, res) {
+    res.send('Hello World');
+    console.log("Hello World");
+});
+
+
+app.listen(3000);
+console.log("Server Listening at 3000");
