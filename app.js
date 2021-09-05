@@ -12,9 +12,18 @@ DELETE
 */
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/', function (req, res) {
+app.get('/home', function (req, res) {
     res.send('Hello World');
     console.log("Hello World");
+});
+
+app.post('/sum', function (req, res) {
+    console.log('Logging Request-----', req.body);
+    const firstNumber = req.body.firstNumber;
+    const secondNumber = req.body.secondNumber;
+    const sum = firstNumber+secondNumber;
+    console.log('sum--->', sum);
+    res.send({"Result" : sum});
 });
 
 
