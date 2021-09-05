@@ -9,3 +9,16 @@ sum = a+b;
 product = a*b;
 console.log('Sum = ', sum);
 console.log('Product = ', product);
+
+console.log('I am a new intern');
+
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
+console.log('I am a new intern');
